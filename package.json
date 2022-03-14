@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
+    //, "open": "npm install && node index.js"
   },
   "author": "",
   "license": "ISC",
