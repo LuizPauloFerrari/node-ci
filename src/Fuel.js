@@ -8,6 +8,10 @@ class Fuel {
         return "gasolina cara";
     } else if (this.name == "etanol") {
         return "etanol mais caro";
+    } else if (this.name == "diesel") {
+        return "diesel super caro";
+    } else if (this.name == "gas") {
+      return "gas subiu";
     } else {
         return "tudo caríssimo";
     }
