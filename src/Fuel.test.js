@@ -1,12 +1,12 @@
 const Fuel = require('./Fuel')
 
 test('Status da Gasolina', async () => {
-  gasolina = new Fuel('gasolina')
+  const gasolina = new Fuel('gasolina')
   expect(gasolina.getStatus()).toBe('gasolina cara')
 })
 
 test('Status do Etanol', async () => {
-  etanol = new Fuel('etanol')
+  const etanol = new Fuel('etanol')
   expect(etanol.getStatus()).toBe('etanol mais caro')
 })
 
