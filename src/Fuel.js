@@ -11,7 +11,7 @@ class Fuel {
     } else if (this.name == "diesel") {
         return "diesel super caro";
     } else if (this.name == "gas") {
-      return "gas subiu";
+      return "gas subiu"
     } else {
         return "tudo caríssimo";
     }
