@@ -2,6 +2,6 @@
 
 Contém:
 
-- Testes
+- Testes (jest)
 - Geração de Imagens no docker
 - Sonarqube
