@@ -10,15 +10,15 @@ test('Status do Etanol', async () => {
   expect(etanol.getStatus()).toBe('etanol mais caro')
 })
 
-test('Status do Diesel', async () => {
-  const etanol = new Fuel('diesel')
-  expect(etanol.getStatus()).toBe('diesel super caro')
-})
+// test('Status do Diesel', async () => {
+//   const etanol = new Fuel('diesel')
+//   expect(etanol.getStatus()).toBe('diesel super caro')
+// })
 
-test('Status do Gás', async () => {
-  const etanol = new Fuel('gas')
-  expect(etanol.getStatus()).toBe('gas subiu')
-})
+// test('Status do Gás', async () => {
+//   const etanol = new Fuel('gas')
+//   expect(etanol.getStatus()).toBe('gas subiu')
+// })
 
 test('outro combustível', async () => {
   etanol = new Fuel('outro')
